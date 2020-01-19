@@ -12,16 +12,19 @@
 
 @end
 
+
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Running");
     
-    hello = @"Hello";
-    name = [NSMutableString stringWithString:@"Aji"];
+    score = 100;
+    bonus = 50;
+    checkpoint = 200;
     
-    _myLabel.text = [NSString stringWithFormat:@"%@, my name is %@", hello, name];
+    int finalScore = score + bonus + checkpoint;
+    _myLabel.text = [NSString stringWithFormat:@"%d ", finalScore];
 }
 
 @end

@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
-    NSString *hello;
-    NSMutableString *name;
+    int score, bonus, checkpoint;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *myLabel;
