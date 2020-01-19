@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSLog(@"Running");
+    
+    word = @"Hello world";
+    int1 = 10;
 }
 
 
