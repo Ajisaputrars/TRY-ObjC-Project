@@ -19,12 +19,18 @@
     [super viewDidLoad];
     NSLog(@"Running");
     
-    score = 100;
-    bonus = 50;
-    checkpoint = 200;
     
-    int finalScore = score + bonus + checkpoint;
-    _myLabel.text = [NSString stringWithFormat:@"%d ", finalScore];
+    float1 = 100;
+    float2 = 200.99;
+    
+    double1 = 50.7434;
+    double2 = 77.34353534343;
+    
+    float calcFloat = float1 + float2;
+    double calcDouble = double1 + double2;
+    
+    _myLabel.text = [NSString stringWithFormat:@"%.1f",calcFloat];
+    _myLabel2.text = [NSString stringWithFormat:@"%.1f",calcDouble];
 }
 
 @end
