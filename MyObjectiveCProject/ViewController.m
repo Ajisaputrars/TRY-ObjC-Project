@@ -18,9 +18,10 @@
     [super viewDidLoad];
     NSLog(@"Running");
     
-    word = @"Hello world";
-    int1 = 10;
+    hello = @"Hello";
+    name = [NSMutableString stringWithString:@"Aji"];
+    
+    _myLabel.text = [NSString stringWithFormat:@"%@, my name is %@", hello, name];
 }
-
 
 @end

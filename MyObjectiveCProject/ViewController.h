@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
-    NSString *word;
-    int int1;
+    NSString *hello;
+    NSMutableString *name;
 }
+
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
 
