@@ -19,12 +19,10 @@
     [super viewDidLoad];
     NSLog(@"Running");
     
-    score = 100;
-    bonus = 50;
-    checkpoint = 200;
+    bool1 = YES;
+    bool2 = NO;
     
-    int finalScore = score + bonus + checkpoint;
-    _myLabel.text = [NSString stringWithFormat:@"%d ", finalScore];
+    _mySwitch.on = bool2;
 }
 
 @end

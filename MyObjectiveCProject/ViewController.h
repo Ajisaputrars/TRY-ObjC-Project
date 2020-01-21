@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
-    int score, bonus, checkpoint;
+    BOOL bool1, bool2;
 }
 
-@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UISwitch *mySwitch;
+
 
 @end
 
