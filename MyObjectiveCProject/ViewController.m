@@ -19,18 +19,10 @@
     [super viewDidLoad];
     NSLog(@"Running");
     
+    bool1 = YES;
+    bool2 = NO;
     
-    float1 = 100;
-    float2 = 200.99;
-    
-    double1 = 50.7434;
-    double2 = 77.34353534343;
-    
-    float calcFloat = float1 + float2;
-    double calcDouble = double1 + double2;
-    
-    _myLabel.text = [NSString stringWithFormat:@"%.1f",calcFloat];
-    _myLabel2.text = [NSString stringWithFormat:@"%.1f",calcDouble];
+    _mySwitch.on = bool2;
 }
 
 @end

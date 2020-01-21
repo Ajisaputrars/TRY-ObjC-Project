@@ -9,15 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
-    float float1;
-    float float2;
-    
-    double double1;
-    double double2;
+    BOOL bool1, bool2;
 }
 
-@property (weak, nonatomic) IBOutlet UILabel *myLabel;
-@property (weak, nonatomic) IBOutlet UILabel *myLabel2;
+@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UISwitch *mySwitch;
+
 
 @end
 
